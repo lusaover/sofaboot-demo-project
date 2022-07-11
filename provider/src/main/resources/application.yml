@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: sofa_provider
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    urL: jdbc:mysql://localhost:3306/bt_lusaover?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&serverTimezone=GMT%2b8&allowPublicKeyRetrieval=true
+    username: root
+    password: 1025679940
+    type: com.alibaba.druid.pool.DruidDataSource
+#com.alipay.sofa.rpc.registry-address=nacos://127.0.0.1:8848
+
+#com.alipay.sofa.rpc.bolt.port=22200
+#server.port=80
+server:
+  port: 9090
+#配置相关信息
+com:
+  alipay:
+    sofa:
+      rpc:
+        registry-address: nacos://127.0.0.1:8848/public
+        bolt-port: 22200

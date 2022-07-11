@@ -1,0 +1,6 @@
+2022-07-08 20:11:56.622[INFO]  LOG_FILE_DIR is ./logs\tracelog
+2022-07-08 20:11:58.324[WARN]  biz-stat.log configured stat_log_interval=60 second and default cycle=60
+2022-07-08 20:11:58.341[WARN]  resttemplate-stat.log configured stat_log_interval=60 second and default cycle=60
+2022-07-08 20:13:08.723[INFO]  LOG_FILE_DIR is ./logs\tracelog
+2022-07-08 20:13:10.179[WARN]  biz-stat.log configured stat_log_interval=60 second and default cycle=60
+2022-07-08 20:13:10.197[WARN]  resttemplate-stat.log configured stat_log_interval=60 second and default cycle=60

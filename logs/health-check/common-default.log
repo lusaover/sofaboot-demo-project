@@ -1,0 +1,82 @@
+2022-07-08 17:12:32,652 INFO  main                             - SOFABoot HealthCheck Starting!
+2022-07-08 17:12:35,981 INFO  main                             - Found 0 HealthChecker implementation:
+2022-07-08 17:12:35,982 INFO  main                             - Found 2 HealthIndicator implementation:sofaBootHealthIndicator,diskSpaceHealthIndicator
+2022-07-08 17:12:35,983 INFO  main                             - Found 0 ReadinessCheckCallback implementation: 
+2022-07-08 17:12:35,983 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2022-07-08 17:12:35,984 INFO  main                             - SOFABoot HealthChecker readiness check result: success.
+2022-07-08 17:12:35,985 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2022-07-08 17:12:35,987 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2022-07-08 17:12:35,988 INFO  main                             - SOFABoot HealthIndicator readiness check result: success.
+2022-07-08 17:12:35,988 INFO  main                             - Begin ReadinessCheckCallback readiness check
+2022-07-08 17:12:35,990 INFO  main                             - ReadinessCheckCallback readiness check result: success.
+2022-07-08 17:12:35,990 INFO  main                             - Readiness check result: success
+2022-07-08 17:15:58,698 INFO  main                             - SOFABoot HealthCheck Starting!
+2022-07-08 17:16:02,009 INFO  main                             - Found 0 HealthChecker implementation:
+2022-07-08 17:16:02,010 INFO  main                             - Found 2 HealthIndicator implementation:sofaBootHealthIndicator,diskSpaceHealthIndicator
+2022-07-08 17:16:02,010 INFO  main                             - Found 0 ReadinessCheckCallback implementation: 
+2022-07-08 17:16:02,010 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2022-07-08 17:16:02,011 INFO  main                             - SOFABoot HealthChecker readiness check result: success.
+2022-07-08 17:16:02,011 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2022-07-08 17:16:02,013 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2022-07-08 17:16:02,014 INFO  main                             - SOFABoot HealthIndicator readiness check result: success.
+2022-07-08 17:16:02,014 INFO  main                             - Begin ReadinessCheckCallback readiness check
+2022-07-08 17:16:02,014 INFO  main                             - ReadinessCheckCallback readiness check result: success.
+2022-07-08 17:16:02,014 INFO  main                             - Readiness check result: success
+2022-07-08 17:24:18,771 INFO  main                             - SOFABoot HealthCheck Starting!
+2022-07-08 17:24:21,973 INFO  main                             - Found 0 HealthChecker implementation:
+2022-07-08 17:24:21,973 INFO  main                             - Found 2 HealthIndicator implementation:sofaBootHealthIndicator,diskSpaceHealthIndicator
+2022-07-08 17:24:21,974 INFO  main                             - Found 0 ReadinessCheckCallback implementation: 
+2022-07-08 17:24:21,974 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2022-07-08 17:24:21,975 INFO  main                             - SOFABoot HealthChecker readiness check result: success.
+2022-07-08 17:24:21,975 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2022-07-08 17:24:21,977 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2022-07-08 17:24:21,978 INFO  main                             - SOFABoot HealthIndicator readiness check result: success.
+2022-07-08 17:24:21,978 INFO  main                             - Begin ReadinessCheckCallback readiness check
+2022-07-08 17:24:21,978 INFO  main                             - ReadinessCheckCallback readiness check result: success.
+2022-07-08 17:24:21,978 INFO  main                             - Readiness check result: success
+2022-07-08 20:12:01,281 INFO  main                             - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2022-07-08 20:12:01,283 INFO  main                             - Found 2 HealthIndicator implementation:diskSpaceHealthIndicator,pingHealthContributor
+2022-07-08 20:12:01,283 INFO  main                             - Found 1 ReadinessCheckCallback implementation: rpcAfterHealthCheckCallback
+2022-07-08 20:12:01,283 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2022-07-08 20:12:01,284 INFO  main                             - SOFABoot HealthChecker readiness check 2 item: SOFABoot-Modules,SOFABoot-Components.
+2022-07-08 20:12:01,285 INFO  main                             - HealthChecker[sofaModuleHealthChecker] readiness check start.
+2022-07-08 20:12:01,286 INFO  main                             - Create health-check thread pool, corePoolSize: 1, maxPoolSize: 1.
+2022-07-08 20:12:01,288 INFO  main                             - HealthChecker[sofaModuleHealthChecker] readiness check success with 0 retry.
+2022-07-08 20:12:01,288 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check start.
+2022-07-08 20:12:01,288 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check success with 0 retry.
+2022-07-08 20:12:01,288 INFO  main                             - SOFABoot HealthChecker readiness check result: success.
+2022-07-08 20:12:01,289 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2022-07-08 20:12:01,289 INFO  main                             - SOFABoot HealthChecker readiness check 2 item: diskSpaceHealthIndicator,pingHealthContributor.
+2022-07-08 20:12:01,289 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check start.
+2022-07-08 20:12:01,291 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2022-07-08 20:12:01,291 INFO  main                             - HealthIndicator[pingHealthContributor] readiness check start.
+2022-07-08 20:12:01,291 INFO  main                             - HealthIndicator[pingHealthContributor] readiness check success.
+2022-07-08 20:12:01,292 INFO  main                             - SOFABoot HealthIndicator readiness check result: success.
+2022-07-08 20:12:01,292 INFO  main                             - Invoking all readiness check callbacks...
+2022-07-08 20:12:01,292 INFO  main                             - Begin ReadinessCheckCallback readiness check
+2022-07-08 20:12:01,321 INFO  main                             - SOFABoot ReadinessCheckCallback[rpcAfterHealthCheckCallback] check success.
+2022-07-08 20:12:01,321 INFO  main                             - ReadinessCheckCallback readiness check result: success.
+2022-07-08 20:12:01,321 INFO  main                             - Readiness check result: success
+2022-07-08 20:13:13,104 INFO  main                             - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2022-07-08 20:13:13,106 INFO  main                             - Found 2 HealthIndicator implementation:diskSpaceHealthIndicator,pingHealthContributor
+2022-07-08 20:13:13,107 INFO  main                             - Found 1 ReadinessCheckCallback implementation: rpcAfterHealthCheckCallback
+2022-07-08 20:13:13,107 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2022-07-08 20:13:13,107 INFO  main                             - SOFABoot HealthChecker readiness check 2 item: SOFABoot-Modules,SOFABoot-Components.
+2022-07-08 20:13:13,108 INFO  main                             - HealthChecker[sofaModuleHealthChecker] readiness check start.
+2022-07-08 20:13:13,109 INFO  main                             - Create health-check thread pool, corePoolSize: 1, maxPoolSize: 1.
+2022-07-08 20:13:13,110 INFO  main                             - HealthChecker[sofaModuleHealthChecker] readiness check success with 0 retry.
+2022-07-08 20:13:13,110 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check start.
+2022-07-08 20:13:13,110 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check success with 0 retry.
+2022-07-08 20:13:13,111 INFO  main                             - SOFABoot HealthChecker readiness check result: success.
+2022-07-08 20:13:13,111 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2022-07-08 20:13:13,111 INFO  main                             - SOFABoot HealthChecker readiness check 2 item: diskSpaceHealthIndicator,pingHealthContributor.
+2022-07-08 20:13:13,111 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check start.
+2022-07-08 20:13:13,113 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2022-07-08 20:13:13,113 INFO  main                             - HealthIndicator[pingHealthContributor] readiness check start.
+2022-07-08 20:13:13,113 INFO  main                             - HealthIndicator[pingHealthContributor] readiness check success.
+2022-07-08 20:13:13,113 INFO  main                             - SOFABoot HealthIndicator readiness check result: success.
+2022-07-08 20:13:13,114 INFO  main                             - Invoking all readiness check callbacks...
+2022-07-08 20:13:13,114 INFO  main                             - Begin ReadinessCheckCallback readiness check
+2022-07-08 20:13:13,180 INFO  main                             - SOFABoot ReadinessCheckCallback[rpcAfterHealthCheckCallback] check success.
+2022-07-08 20:13:13,180 INFO  main                             - ReadinessCheckCallback readiness check result: success.
+2022-07-08 20:13:13,180 INFO  main                             - Readiness check result: success

@@ -1,0 +1,38 @@
+2022-07-08 20:11:57,339 INFO  main                             - SOFABoot Runtime Starting!
+2022-07-08 20:12:01,216 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo Start +++++++++++++++++
+2022-07-08 20:12:01,218 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo End +++++++++++++++++
+2022-07-08 20:12:01,218 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo Start +++++++++++++++++
+2022-07-08 20:12:01,218 INFO  main                             - 
+All activated module list(0) >>>>>>>
+
+Modules that could install(0) >>>>>>>
+
+2022-07-08 20:12:01,240 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo End +++++++++++++++++
+2022-07-08 20:12:01,241 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo Start +++++++++++++++++
+2022-07-08 20:12:01,241 INFO  main                             - 
+Spring context initialize success module list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+2022-07-08 20:12:01,241 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo End +++++++++++++++++
+2022-07-08 20:13:09,343 INFO  main                             - SOFABoot Runtime Starting!
+2022-07-08 20:13:13,049 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo Start +++++++++++++++++
+2022-07-08 20:13:13,051 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo End +++++++++++++++++
+2022-07-08 20:13:13,051 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo Start +++++++++++++++++
+2022-07-08 20:13:13,051 INFO  main                             - 
+All activated module list(0) >>>>>>>
+
+Modules that could install(0) >>>>>>>
+
+2022-07-08 20:13:13,069 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo End +++++++++++++++++
+2022-07-08 20:13:13,069 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo Start +++++++++++++++++
+2022-07-08 20:13:13,069 INFO  main                             - 
+Spring context initialize success module list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+2022-07-08 20:13:13,070 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo End +++++++++++++++++

@@ -1,0 +1,69 @@
+2022-07-08 17:12:32.662  INFO 10504 --- [main] c.l.demo.SofabootDemoProjectApplication  : Starting SofabootDemoProjectApplication on lusaover-DeskPC with PID 10504 (C:\Users\lusao\Documents\projects\sofaboot-demo-project\target\classes started by lusao in C:\Users\lusao\Documents\projects\sofaboot-demo-project)
+2022-07-08 17:12:32.665  INFO 10504 --- [main] c.l.demo.SofabootDemoProjectApplication  : No active profile set, falling back to default profiles: default
+2022-07-08 17:12:34.176  INFO 10504 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-08 17:12:34.193  INFO 10504 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-08 17:12:34.193  INFO 10504 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2022-07-08 17:12:34.200  INFO 10504 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2022-07-08 17:12:34.200  INFO 10504 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2022-07-08 17:12:34.201  INFO 10504 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-07-08 17:12:35.239  INFO 10504 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2022-07-08 17:12:35.338  INFO 10504 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-08 17:12:35.338  INFO 10504 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2638 ms
+2022-07-08 17:12:35.616  INFO 10504 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2022-07-08 17:12:35.617  INFO 10504 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2022-07-08 17:12:35.617  INFO 10504 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2022-07-08 17:12:35.617  INFO 10504 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2022-07-08 17:12:35.617  INFO 10504 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2022-07-08 17:12:35.617  INFO 10504 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpTraceFilter' to: [/*]
+2022-07-08 17:12:35.617  INFO 10504 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2022-07-08 17:12:35.735  INFO 10504 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-08 17:12:35.949  INFO 10504 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2022-07-08 17:12:36.023  INFO 10504 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-08 17:12:36.026  INFO 10504 --- [main] c.l.demo.SofabootDemoProjectApplication  : Started SofabootDemoProjectApplication in 3.796 seconds (JVM running for 4.206)
+2022-07-08 17:12:38.974  INFO 10504 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-07-08 17:15:58.706  INFO 11252 --- [main] c.l.demo.SofabootDemoProjectApplication  : Starting SofabootDemoProjectApplication on lusaover-DeskPC with PID 11252 (C:\Users\lusao\Documents\projects\sofaboot-demo-project\target\classes started by lusao in C:\Users\lusao\Documents\projects\sofaboot-demo-project)
+2022-07-08 17:15:58.708  INFO 11252 --- [main] c.l.demo.SofabootDemoProjectApplication  : No active profile set, falling back to default profiles: default
+2022-07-08 17:16:00.245  INFO 11252 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-08 17:16:00.260  INFO 11252 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-08 17:16:00.261  INFO 11252 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2022-07-08 17:16:00.268  INFO 11252 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2022-07-08 17:16:00.268  INFO 11252 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2022-07-08 17:16:00.268  INFO 11252 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-07-08 17:16:01.297  INFO 11252 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2022-07-08 17:16:01.382  INFO 11252 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-08 17:16:01.382  INFO 11252 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2602 ms
+2022-07-08 17:16:01.659  INFO 11252 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2022-07-08 17:16:01.659  INFO 11252 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2022-07-08 17:16:01.659  INFO 11252 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2022-07-08 17:16:01.659  INFO 11252 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2022-07-08 17:16:01.659  INFO 11252 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2022-07-08 17:16:01.659  INFO 11252 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpTraceFilter' to: [/*]
+2022-07-08 17:16:01.660  INFO 11252 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2022-07-08 17:16:01.780  INFO 11252 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-08 17:16:01.984  INFO 11252 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2022-07-08 17:16:02.045  INFO 11252 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-08 17:16:02.048  INFO 11252 --- [main] c.l.demo.SofabootDemoProjectApplication  : Started SofabootDemoProjectApplication in 3.721 seconds (JVM running for 4.091)
+2022-07-08 17:18:38.314  INFO 11252 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-07-08 17:24:18.776  INFO 16656 --- [main] c.l.demo.SofabootDemoProjectApplication  : Starting SofabootDemoProjectApplication on lusaover-DeskPC with PID 16656 (C:\Users\lusao\Documents\projects\sofaboot-demo-project\target\classes started by lusao in C:\Users\lusao\Documents\projects\sofaboot-demo-project)
+2022-07-08 17:24:18.777  INFO 16656 --- [main] c.l.demo.SofabootDemoProjectApplication  : No active profile set, falling back to default profiles: default
+2022-07-08 17:24:20.182  INFO 16656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-08 17:24:20.197  INFO 16656 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-08 17:24:20.198  INFO 16656 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2022-07-08 17:24:20.206  INFO 16656 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2022-07-08 17:24:20.207  INFO 16656 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2022-07-08 17:24:20.207  INFO 16656 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-07-08 17:24:21.244  INFO 16656 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2022-07-08 17:24:21.332  INFO 16656 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-08 17:24:21.332  INFO 16656 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2499 ms
+2022-07-08 17:24:21.619  INFO 16656 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2022-07-08 17:24:21.620  INFO 16656 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2022-07-08 17:24:21.620  INFO 16656 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2022-07-08 17:24:21.620  INFO 16656 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2022-07-08 17:24:21.620  INFO 16656 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2022-07-08 17:24:21.620  INFO 16656 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpTraceFilter' to: [/*]
+2022-07-08 17:24:21.620  INFO 16656 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2022-07-08 17:24:21.742  INFO 16656 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-08 17:24:21.944  INFO 16656 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2022-07-08 17:24:22.009  INFO 16656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-08 17:24:22.011  INFO 16656 --- [main] c.l.demo.SofabootDemoProjectApplication  : Started SofabootDemoProjectApplication in 3.583 seconds (JVM running for 3.932)
+2022-07-08 17:24:32.017  INFO 16656 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

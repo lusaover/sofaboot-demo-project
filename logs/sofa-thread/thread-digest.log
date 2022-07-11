@@ -1,0 +1,19 @@
+2022-07-08 20:12:01,239 INFO  main  - Thread pool 'sofa-boot-sofa-module-start' started with period: 30 SECONDS
+2022-07-08 20:12:01,239 INFO  main  - Thread pool with name 'sofa-boot-sofa-module-start' registered
+2022-07-08 20:12:01,240 INFO  main  - Thread pool 'sofa-boot-sofa-module-start' stopped.
+2022-07-08 20:12:01,240 INFO  main  - Thread pool with name 'sofa-boot-sofa-module-start' unregistered
+2022-07-08 20:12:01,287 INFO  main  - Thread pool 'sofa-boot-health-check' started with period: 5000 MILLISECONDS
+2022-07-08 20:12:01,287 INFO  main  - Thread pool with name 'sofa-boot-health-check' registered
+2022-07-08 20:12:06,287 INFO  SOFA-Thread-Pool-Monitor-2-thread-1 - Thread pool 'sofa-boot-health-check' info: [0,0,1,1,0]
+2022-07-08 20:12:06,287 INFO  SOFA-Thread-Pool-Monitor-2-thread-1 - Thread pool 'sofa-boot-health-check' average static info: [0,0]
+2022-07-08 20:12:11,287 INFO  SOFA-Thread-Pool-Monitor-2-thread-2 - Thread pool 'sofa-boot-health-check' info: [0,0,1,1,0]
+2022-07-08 20:12:16,287 INFO  SOFA-Thread-Pool-Monitor-2-thread-3 - Thread pool 'sofa-boot-health-check' info: [0,0,1,1,0]
+2022-07-08 20:12:21,287 INFO  SOFA-Thread-Pool-Monitor-2-thread-2 - Thread pool 'sofa-boot-health-check' info: [0,0,1,1,0]
+2022-07-08 20:12:26,287 INFO  SOFA-Thread-Pool-Monitor-2-thread-1 - Thread pool 'sofa-boot-health-check' info: [0,0,1,1,0]
+2022-07-08 20:12:31,287 INFO  SOFA-Thread-Pool-Monitor-2-thread-3 - Thread pool 'sofa-boot-health-check' info: [0,0,1,1,0]
+2022-07-08 20:13:13,068 INFO  main  - Thread pool 'sofa-boot-sofa-module-start' started with period: 30 SECONDS
+2022-07-08 20:13:13,069 INFO  main  - Thread pool with name 'sofa-boot-sofa-module-start' registered
+2022-07-08 20:13:13,069 INFO  main  - Thread pool 'sofa-boot-sofa-module-start' stopped.
+2022-07-08 20:13:13,069 INFO  main  - Thread pool with name 'sofa-boot-sofa-module-start' unregistered
+2022-07-08 20:13:13,109 INFO  main  - Thread pool 'sofa-boot-health-check' started with period: 5000 MILLISECONDS
+2022-07-08 20:13:13,109 INFO  main  - Thread pool with name 'sofa-boot-health-check' registered
