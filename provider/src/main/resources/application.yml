@@ -2,12 +2,31 @@ spring:
   application:
     name: sofa_provider
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    urL: jdbc:mysql://localhost:3306/bt_lusaover?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&serverTimezone=GMT%2b8&allowPublicKeyRetrieval=true
-    username: root
-    password: 1025679940
-    type: com.alibaba.druid.pool.DruidDataSource
+    dynamic:
+      primary: master
+      strict: false
+      datasource:
+        master:
+          url: jdbc:mysql://localhost:3306/bt_lusaover?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&serverTimezone=GMT%2b8&allowPublicKeyRetrieval=true
+          username: root
+          password: 1025679940
+          driver-class-name: com.mysql.cj.jdbc.Driver
+        slave:
+          url: jdbc:mysql://172.16.31.210:31001/bt_Lusaover?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&serverTimezone=GMT%2b8&allowPublicKeyRetrieval=true
+          username: dev
+          password: Aa123456
+          driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    urL: jdbc:mysql://172.16.31.210:31001/bt_Lusaover?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&serverTimezone=GMT%2b8&allowPublicKeyRetrieval=true
+#    username: dev
+#    password: Aa123456
+#    type: com.alibaba.druid.pool.DruidDataSource
 #com.alipay.sofa.rpc.registry-address=nacos://127.0.0.1:8848
+
+
 
 #com.alipay.sofa.rpc.bolt.port=22200
 #server.port=80
@@ -18,5 +37,5 @@ com:
   alipay:
     sofa:
       rpc:
-        registry-address: nacos://127.0.0.1:8848/public
+        registry-address: nacos://172.16.31.210:31256/test
         bolt-port: 22200

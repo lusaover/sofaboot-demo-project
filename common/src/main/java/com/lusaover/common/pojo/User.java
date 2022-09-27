@@ -1,11 +1,21 @@
 package com.lusaover.common.pojo;
 
-import com.baomidou.mybatisplus.annotation.TableName;
+import com.baomidou.mybatisplus.annotation.*;
 
+/**
+ * User类
+ */
 @TableName("user_tb")
 public class User {
+
+    @TableId(type = IdType.AUTO)
     private int id;
+
+    //插入数据时进行自动填充
+    @TableField(fill = FieldFill.INSERT)
     private String name;
+
+    // 性别，0女，1男，无设置性别为2
     private int gender;
     private int age;
     private String tel;
